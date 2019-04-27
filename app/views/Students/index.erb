@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sena</title>
+    <style media="screen">
+    table {
+       width: 60%;
+       border: 1px solid #000;
+    }
+    th, td {
+       width: 25%;
+       text-align: left;
+       vertical-align: top;
+       border: 1px solid #000;
+       border-collapse: collapse;
+       padding: 0.3em;
+       caption-side: bottom;
+    }
+    caption {
+       padding: 0.3em;
+       color: #fff;
+        background: #000;
+    }
+    th {
+       background: #eee;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <h1></h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Correo</th>
+          <th>Fecha de Nacimineto</th>
+          <th>Programa</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @Student.each do |student| %>
+        <tr>
+          <td><%=student.nombre%></td>
+          <td><%= student.correo%></td>
+          <td><%=student.fecha_nacimiento%></td>
+          <td><%=student.programa%></td>
+
+        </tr>
+        <%  end %>
+      </tbody>
+
+    </table>
+  </body>
+</html>
