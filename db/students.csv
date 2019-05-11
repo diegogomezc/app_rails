@@ -1,3 +1,4 @@
+nombre,correo,fecha_nacimiento,programa
 diego,arnel_12@asd.com,01/01/2000,adsi
 diego,arnel_12@asd.com,01/01/2000,adsi
 diego,arnel_12@asd.com,01/01/2000,adsi
@@ -6,3 +7,7 @@ diego,arnel_12@asd.com,01/01/2000,adsi
 diego,arnel_12@asd.com,01/01/2000,adsi
 diego,arnel_12@asd.com,01/01/2000,adsi
 diego,arnel_12@asd.com,01/01/2000,adsi
+,,2019-05-18,nose
+,,2019-05-24,sss
+juan,pp@gmail.com,2019-05-16,as
+pedro,dag@gma.com,2019-05-17,diehhdhd
